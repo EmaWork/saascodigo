@@ -42,6 +42,7 @@
     "react-modal-image": "^2.5.0",
     "react-number-format": "^4.6.4",
     "react-qr-code": "^2.0.7",
+    "react-query": "^3.39.3",
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.1",
     "react-text-mask": "^5.5.0",

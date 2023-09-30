@@ -69,9 +69,9 @@ const WhatsAppModal = ({ open, onClose, whatsAppId }) => {
     isDefault: false,
     token: "",
     provider: "beta",
-    {/*useNPS: false,
+    useNPS: false,
     expiresTicketNPS: 3,
-    expiresTicket: 0,*/}
+    expiresTicket: 0,
   };
   const [whatsApp, setWhatsApp] = useState(initialState);
   const [selectedQueueIds, setSelectedQueueIds] = useState([]);

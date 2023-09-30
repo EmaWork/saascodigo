@@ -171,19 +171,19 @@ const WhatsAppModal = ({ open, onClose, whatsAppId }) => {
                         }
                         label={i18n.t("whatsappModal.form.default")}
                       />
-                    {/*</Grid>
+                    </Grid>
 
                     <Grid item>
                     <Field
                         as={TextField}
-                        label={'Encerrar chat após x horas'}
+                        label={'Encerrar chat apÃ³s x horas'}
                         name="expiresTicket"
                         error={touched.expiresTicket && Boolean(errors.expiresTicket)}
                         helperText={touched.expiresTicket && errors.expiresTicket}
                         variant="outlined"
                         margin="dense"
                         className={classes.textFieldTime}
-                      />*/}
+                      />
 
                     </Grid>
                   </Grid>

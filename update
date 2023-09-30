@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Updating Whaticket, please wait."
+echo "Atualizando Whaticket, por favor aguarde."
 
 git pull
 cd backend
@@ -14,4 +14,4 @@ rm -rf build
 npm run build
 pm2 restart all
 
-echo "Update finished. Enjoy!"
+echo "Atualização finalizada. Aproveite!"

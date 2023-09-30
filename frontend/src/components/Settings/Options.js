@@ -399,8 +399,8 @@ export default function Options(props) {
               }}
             >
               <MenuItem value={"text"}>Texto</MenuItem>
-              <MenuItem value={"button"}>Botão</MenuItem>
-              <MenuItem value={"list"}>Lista</MenuItem>
+              {/*<MenuItem value={"button"}>Botão</MenuItem>
+              <MenuItem value={"list"}>Lista</MenuItem>*/}
             </Select>
             <FormHelperText>
               {loadingChatbotType && "Atualizando..."}
